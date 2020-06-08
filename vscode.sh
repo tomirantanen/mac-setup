@@ -18,4 +18,5 @@ else
   code --install-extension vscjava.vscode-maven
   code --install-extension editorconfig.editorconfig
   code --install-extension mikestead.dotenv
+  code --install-extension esbenp.prettier-vscode
 fi
