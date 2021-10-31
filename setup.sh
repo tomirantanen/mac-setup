@@ -42,3 +42,10 @@ defaults write com.apple.finder ShowPathbar -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Finder: When performing a search, search the current folder by default
+# Options:
+#   Search This Mac: "SCev"
+#   Search the Current Folder: "SCcf"
+#   Use the Previous Search Scope: "SCsp"
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
