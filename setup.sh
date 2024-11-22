@@ -7,29 +7,27 @@ fi
 
 brew install git
 brew install docker
-brew install node
-brew install tree
 brew install zsh
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
 brew install curl
 brew install grep
-brew install bat # Cat clone with syntax highlight
+brew install bat
 brew install htop
-brew install httpie # User-friendly curl alternative
-brew tap heroku/brew && brew install heroku
+brew install httpie
+brew install yt-dlp
+brew install tldr
+brew install scroll-reverser
 
-brew cask install iterm2
-brew cask install github
-brew cask install rectangle
-brew cask install scroll-reverser
-brew cask install visual-studio-code
-brew cask install insomnia
+brew install --cask iterm2
+brew install --cask github
+brew install --cask rectangle
+brew install --cask visual-studio-code
 
 # Plugins for extending Mac Quick Look feature
-brew cask install WebPQuickLook # Preview WebP images
-brew cask install qlmarkdown # Preview Markdown files
-brew cask install quicklook-json # Preview JSON files
+brew install --cask WebPQuickLook # Preview WebP images
+brew install --cask qlmarkdown # Preview Markdown files
+brew install --cask quicklook-json # Preview JSON files
 
 # Change minimize window effect to scale
 defaults write com.apple.dock mineffect -string "scale"
